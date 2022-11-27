@@ -1,0 +1,16 @@
+.navbar{
+    width: 100vw;
+}
+ul{
+    display: flex;
+list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+li{
+    padding-right: 6vw;
+
+}
