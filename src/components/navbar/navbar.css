@@ -1,10 +1,8 @@
 
 .navbar{
     width: 100vw;
-    border-radius: 0px;
-    padding-bottom: 0.5px;
-    position: absolute;
     background-color: white;
+    border-bottom: 1px solid black;
 }
 header{
     display: -webkit-flex;
