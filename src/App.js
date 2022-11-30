@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
         <Routes>
-          <Route path='/' element={<><Navbar/><div className='group'><Homepage/><Chat/></div></>}/>
+          <Route path='/' element={<><Navbar/><div className='group'><Homepage/><Chat /></div></>}/>
         </Routes>
     </Router>
   );

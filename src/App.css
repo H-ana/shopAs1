@@ -11,6 +11,6 @@ body {
 }
 .group{
   display: flex;
-  width: 100vw;
+  justify-content:space-around;
   flex-direction: row;
 }
