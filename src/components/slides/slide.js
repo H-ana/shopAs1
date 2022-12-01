@@ -1,7 +1,7 @@
-import slide1 from '../../images/slide1.jpg';
-import slide2 from '../../images/slide2.jpg';
-import slide3 from '../../images/slide3.jpg';
-import slide4 from '../../images/slide4.png';
+import slide1 from '../../images/slide1.jpeg';
+import slide2 from '../../images/slide2.jpeg';
+import slide3 from '../../images/slide3.jpeg';
+import slide4 from '../../images/slide4.jpeg';
 import React from 'react';
 import '../slides/slide.css';
 function Slide (){
