@@ -8,6 +8,7 @@ function Homepage() {
     <div className='container'>
         <img src={Image}/>
         <Slide/>
+        <h1>tddtdtdtdtdt</h1>
     </div>
     </div>
     );
