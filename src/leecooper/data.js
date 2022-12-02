@@ -1,0 +1,19 @@
+export const data=[
+{
+    image:'',
+},
+{
+    image:'',
+},
+{
+    image:'',
+},
+{image:'',
+},
+{
+    image:'',
+},
+{
+    image:'',
+},
+];
