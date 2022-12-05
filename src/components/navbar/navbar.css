@@ -6,39 +6,37 @@
     background-color: white;
     border-bottom: 1px solid black;
 }
-header{
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
+.navbar header{
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
 }
-ul{
+.navbar ul{
 list-style-type: none;
 }
-a{
+.navbar a{
     text-decoration: none;
     color: black;
 
 }
-li{
+.navbar li{
     display: inline-block;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
     font-family: 'Iceberg', cursive;
-    font-size: 28px;
+    font-size: 20px;
 
 }
-ul li div h2{
+.navbar ul li div h2{
     font-size: 18px;
 }
-ul li div h3{
+.navbar ul li div h3{
     font-size: 14px;
     text-transform: uppercase;
 }
-ul li div{
+.navbar ul li div{
     display: flex;
     flex-direction: column;
     align-items: center;
