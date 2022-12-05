@@ -1,0 +1,52 @@
+.container h{
+    position: absolute;
+        width: 585px;
+        height: 51px;
+    
+        font-family: 'Iceberg';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 49px;
+    
+        color: #620000;
+    
+        border: 1px solid #000000;
+}
+.heart{
+    position: absolute;
+        width: 28px;
+        height: 28px;
+        color: #620000;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clear: both;
+}
+
+.container .card {
+    padding: 10px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 830px;
+    height: 126px;
+    background-color: #D7FDFF;
+    margin-top: 30px;
+}
+
+.container .card img {
+    width: 123px;
+    height: 98px;
+    margin-right: 20px;
+}
+
+.container h1 {
+    color: #620000;
+    font-family: 'Iceberg';
+    font-weight: 300;
+    font-size: 64px;
+    }
