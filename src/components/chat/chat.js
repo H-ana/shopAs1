@@ -8,7 +8,7 @@ function Chat(){
             <div className='chat'>
                 <div  style={{display:'flex'}}>
                 <BsFillChatLeftTextFill className='chat-logo'/>
-                <h2 >Chatrooom</h2>
+                <h2 >Chatroom</h2>
                 </div>
                 <a href='#' className='create-button'><center>Create</center></a>
                 <a href='#' className='join-button'><center>Join with code</center></a>
