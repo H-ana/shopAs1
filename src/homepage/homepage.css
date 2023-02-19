@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
 body{
     background-color: chartreuse;
 }
-.container img{
-    width: 100%;
-    height: auto;
+.top-container{
+    background: url("../images/homepage.png");
+    background-size:cover;
+    height: 80vh;
+    width: 100vw;
 }
 .home-box {
     overflow: 'scroll';
@@ -11,4 +14,80 @@ body{
     width:'500px';
     height:'500px';
     position:'relative';
+}
+.home-nav-list{
+font-family: 'IBM Plex Sans', sans-serif;
+font-size: 1.5rem;
+
+}
+.top-container-up{
+    margin-top: 2rem;
+    width: 100%;
+    display: inline-flex;
+    justify-content: right;
+}
+.top-container-up img{
+    position: fixed;
+    left:2rem;
+}
+.home-nav-list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+}
+.home-nav-list a{
+    color: #620000;
+    text-decoration: none;
+}
+.top-container-down{
+    position: fixed;
+    top:10rem;
+    left: 10rem;
+}
+.top-container-down p{
+    font-family: 'Sue Ellen Francisco', cursive;
+    width: 20rem;
+    text-align: center;
+    font-size: 4rem;
+}
+.top-container-down button{
+
+}
+.top-container-down p::after {
+    content: "";
+    background: #5F4236;
+    width: 0.5rem;
+    height: 20rem;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 1rem;
+    margin-left: 4rem;
+    transform: translateX(100%);
+}
+.top-container-down-button{
+    width: 10rem;
+    font-size: 1.5rem;
+    border: #620000 2px solid;
+    padding: 0.5rem;
+    text-align: center;
+    float: right;
+}
+.top-container-down-button::after{
+    content: "";
+        width: 11rem;
+        border: #620000 2px solid;
+        height: 3rem;
+        position: absolute;
+        bottom: -0.7rem;
+        margin-left: 4rem;
+        transform: translateX(-13.2rem);
+}
+.top-container-down-button a {
+    color: #620000;
+    text-decoration: none;
+}
+.top-container-down-button:hover {
+    cursor: pointer;
 }

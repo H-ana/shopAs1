@@ -16,13 +16,10 @@ const LeeCooper = () => {
                 <div className='card'>
                    <img src={image}/>
                    <a href='#'><div className='heart'><FaRegHeart/></div></a>
-                   <div className='details'>
-                    <h2>{brand}</h2>
-                    <h3>{name}</h3>
+                   <div className='details'>                    <h3>{name}</h3>
                     <img src={Star}></img>
-                    <h5>{rate}</h5>
                     <a href="#">
-                    <Button>Add to Cart</Button>
+                    Add to Cart
                     </a>
                     </div>
                  </div>   
